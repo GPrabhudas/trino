@@ -2072,17 +2072,17 @@
                     <version>1.0.18</version>
                 </plugin>
 
-                <plugin>
-                    <groupId>io.github.git-commit-id</groupId>
-                    <artifactId>git-commit-id-maven-plugin</artifactId>
-                    <configuration>
-                        <runOnlyOnce>true</runOnlyOnce>
-                        <injectAllReactorProjects>true</injectAllReactorProjects>
-                        <offline>true</offline>
-                        <!-- A workaround to make build work in a Git worktree, see https://github.com/git-commit-id/git-commit-id-maven-plugin/issues/215 -->
-                        <useNativeGit>true</useNativeGit>
-                    </configuration>
-                </plugin>
+<!--                <plugin>-->
+<!--                    <groupId>io.github.git-commit-id</groupId>-->
+<!--                    <artifactId>git-commit-id-maven-plugin</artifactId>-->
+<!--                    <configuration>-->
+<!--                        <runOnlyOnce>true</runOnlyOnce>-->
+<!--                        <injectAllReactorProjects>true</injectAllReactorProjects>-->
+<!--                        <offline>true</offline>-->
+<!--                        &lt;!&ndash; A workaround to make build work in a Git worktree, see https://github.com/git-commit-id/git-commit-id-maven-plugin/issues/215 &ndash;&gt;-->
+<!--                        <useNativeGit>true</useNativeGit>-->
+<!--                    </configuration>-->
+<!--                </plugin>-->
                 <plugin>
                     <groupId>org.basepom.maven</groupId>
                     <artifactId>duplicate-finder-maven-plugin</artifactId>
